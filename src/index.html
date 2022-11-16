@@ -3,8 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Country Information - Country searcher</title>
+    <link href="styles.css" rel="stylesheet">
+    <script defer type="module" src="app.js"></script>
 </head>
 <body>
-
+<ul id ="country-list"></ul>
+<h1>Data Fetchen en Event Listners</h1>
+<p>Get country id (leave empty to retrieve all countries)</p>
+<label for="country-name">
+    <input id="country-name" type= "text">
+</label>
+<button id="button" type="button">Get Countries</button>
+<ul id ="list-of-countries"></ul>
+<span id ="error-message"></span>
 </body>
 </html>
